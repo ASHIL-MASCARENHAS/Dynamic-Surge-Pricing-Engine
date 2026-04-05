@@ -2,7 +2,7 @@
 
 **Author:** Ashil Mascarenhas | Data & Product Analytics  
 **Tech Stack:** Python, DuckDB, Pandas, Scikit-Learn, Matplotlib  
-**Dataset:** 30M+ rows of NYC TLC Parquet Data (Q1 2024)
+**Dataset:** 30M+ rows of NYC TLC Parquet Data (Q1 2026)
 
 ## 📌 Executive Summary
 Flat-fare pricing in ride-hailing marketplaces leads to severe supply-demand imbalances during peak hours. This project engineers a dynamic surge pricing algorithm from scratch using 30M+ transactional records. 
