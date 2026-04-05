@@ -27,7 +27,6 @@ A pure mathematical model lets prices surge infinitely. A product-focused model 
 *The blue area represents the raw demand volatility in the busiest zone. The red line represents the algorithm stepping up to suppress demand and extract revenue during peak spikes.*
 
 ![Surge Timeline](images/surge_timeline.png)
-*(Note to Ashil: Ensure `surge_timeline.png` is in your `images` folder)*
 
 ## 💰 The Revenue Simulation (Price Elasticity)
 I stress-tested the algorithm against historical data using a **Price Elasticity Coefficient of -0.4**. This ensures that as prices artificially surge, simulated demand realistically drops as users get "priced out".
@@ -40,4 +39,4 @@ I stress-tested the algorithm against historical data using a **Price Elasticity
 
 ## 🚀 Future Iterations
 * **Weather API Integration:** Introduce real-time precipitation data to act as a leading indicator for demand spikes before they hit the 15-minute rolling average.
-* **Geospatial Hex-Binning:** Transition from raw `LocationIDs` to H3 Hexagons for more granular, block-by-block surge mapping.# Dynamic-Surge-Pricing-Engine
+* **Geospatial Hex-Binning:** Transition from raw `LocationIDs` to H3 Hexagons for more granular, block-by-block surge mapping.
